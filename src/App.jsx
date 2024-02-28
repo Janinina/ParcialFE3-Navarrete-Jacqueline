@@ -1,12 +1,13 @@
 import './App.css'
-import Card from './Components/Card';
+import Form from './Components/Form';
 
 function App() { 
   return (
-    <div className='App'>
-      <Card/>
+    <div>
+      <h2>Encuesta musical Digital House - FE3</h2>
+      <Form/>     
+      
     </div>
   )
 }
-
 export default App;
